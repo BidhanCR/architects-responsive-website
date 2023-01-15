@@ -50,7 +50,7 @@ nav li{
     margin-top: 24px;
     margin-bottom: 33px;
 }
-.header-btn{
+.primary-btn{
     font-weight: 600;
     font-size: 20px;
     color: #FFFFFF;
@@ -60,9 +60,42 @@ nav li{
     background-color: #FF900E;
     border-radius: 10px;
     border: none;
-    margin-bottom: 50px;
+    
 }
 .banner-image{
     width: 950px;
-    height: 600px;    
+    height: 600px;
+    margin-top: 50px;
+       
+}
+/* feature section */
+.feature-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 85px;
+    gap: 30px;
+    padding: 0 200px; 
+}
+.feature-image-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+.feature-image{
+    width: 342px;
+    height: 342px;
+    border-radius: 8px;
+}
+.feature-title{
+    font-weight: 500;
+    font-size: 45px;
+    color: #727272;
+}
+.feature-description{
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    margin-top: 24px;
+    margin-bottom: 32px;
 }
