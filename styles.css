@@ -192,3 +192,30 @@ nav li{
     font-size: 20px;
     color: #727272;
 }
+/* sponsors section */
+.sponsors-container{
+    padding: 0 200px;
+}
+.sponsors-title-description{
+    text-align: center;
+    margin-top: 150px;
+}
+.sponsors-title{
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+    margin-bottom: 24px;
+}
+.sponsors-description{
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    margin-bottom: 50px;
+}
+/* sponsors-log- container */
+.sponsors-logo-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    
+}
